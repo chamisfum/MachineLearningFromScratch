@@ -1,4 +1,5 @@
 # Machine Learning From Scratch
+**Created by** : [moch. chamdani mustaqim](https://github.com/chamisfum)<br><br>
 This is my machine learning module developed from scratch without any import library.
 
 This repo are include some of ML model like:
