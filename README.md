@@ -45,5 +45,5 @@ In this module was already define some evaluation matric like bellow. You can us
 'mse' : Get MSE (mean square error) evaluation value of the model.
 'rmse': Get RMSE (root mean square error) evaluation value of the model.
 'r2'  : Get R^2 error evaluation of the model.
-'all' : Get the evaluation value of all matrices either ('mae', 'mse', 'rmse' or 'r2').
+'all' : Get the evaluation value of all matrices either ('mae', 'mse', 'rmse' and 'r2').
 ```
