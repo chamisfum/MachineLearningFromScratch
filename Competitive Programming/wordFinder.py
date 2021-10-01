@@ -73,5 +73,29 @@ def find_matches(word, grid, separator='\n'):
 def wordsearch(word, string_grid, separator='\n'):
     return len(find_matches(word, string_grid, separator))
 
+mylist = [3,4,'catt','aata','tatc','cat',5,5,'gogog','ooooo','godog','ooooo','gogog','dog',2,8,'bananana','kalibrrr','nana']
 
-print(wordsearch('dog', 'gogog ooooo godog ooooo gogog', ' '))
+foo = 1
+boo = 1
+for i in range(mylist[0]):
+    grid = ''
+    if foo != 1:
+        foo = foo + foo + 1
+        boo = foo
+        print(foo)
+        print(boo)
+    for j in mylist[foo+2:]:
+        print(j)
+        grid = grid+j
+        if foo == mylist[boo]:
+            print(grid)
+            break
+        else:
+            foo = foo + 1
+            grid = grid + ' '
+            mylist.pop(1)
+    
+    word = mylist[foo + foo ]
+    print(word)
+    print(grid)
+    print(wordsearch(word, grid, ' '))
